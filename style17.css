@@ -1,0 +1,36 @@
+body {
+    background: #dff5df;
+    font-family: Arial;
+    text-align: center;
+}
+
+.box {
+    width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px gray;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    color: green;
+}
+
+button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgreen;
+}
