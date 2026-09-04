@@ -19,6 +19,7 @@ body{
     display: flex;
     gap: 80px;
     overflow: auto;
+     
  }
  #parent::-webkit-scrollbar{
  background-color: aquamarine; }
