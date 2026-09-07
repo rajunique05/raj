@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+main section {
+  height: 100%;
+  flex-grow: 1;
+  background-color: rgb(113, 6, 6);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: pointer;
+}
+main section:hover {
+  flex-grow: 4;
+}
+main section:nth-child(1) {
+  background-image: url(https://i.pinimg.com/originals/89/3f/fd/893ffdb8c9e5d47e2855e348848195b9.jpg);
+}
+main section:nth-child(2) {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4VhgQDLwTj5WXB8ea40qVj4V3IxkMQfg8vDUuYCS-2w&s=10);
+}
+main section:nth-child(3) {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbRSyZsUpUu6uS226SvBI-2vbZbEJ0zIzE4EJZJMfjNA&s=10);
+}
+main section:nth-child(4) {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl3V__a-DcLxUQsujMS6DBg3lZKTyTQiO2KAQrifxF1Q&s=10);
+}
+main section:nth-child(5) {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnYbmrSoV28Zanm9w41GnhZ5JZUTKpWJsiGEagVftR5Q&s=10);
+}/*# sourceMappingURL=style22.css.map */
