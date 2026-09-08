@@ -25,7 +25,7 @@ main section {
   cursor: pointer;
 }
 main section:hover {
-  flex-grow: 4;
+  flex-grow: 3;
 }
 main section:nth-child(1) {
   background-image: url(https://i.pinimg.com/originals/89/3f/fd/893ffdb8c9e5d47e2855e348848195b9.jpg);
