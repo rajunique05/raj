@@ -84,3 +84,8 @@ main{
 section{
     max-width: 1600px;
 }
+section.view2{
+    @include flex-column(1rem);
+    width: 100%;
+    padding: ;
+}
