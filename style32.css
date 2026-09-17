@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+section {
+  color: white;
+  min-height: 550px;
+  background-image: linear-gradient(rgba(70, 40, 100, 0.35), rgb(150, 50, 100));
+  background-size: cover;
+  background-position: center;
+}
+section nav {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+}
+section nav i {
+  font-size: 30px;
+}
+section nav ii {
+  font-size: 30px;
+  padding-left: 110px;
+}
+section .pfirst {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  padding-left: 10px;
+}
+section .heading {
+  display: flex;
+  overflow-wrap: anywhere;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  display: block;
+  padding: 10px;
+}
+section .article {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+}
+section .article h5 {
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  gap: 10px;
+}
+section .r {
+  padding-left: 10px;
+}
+section .icon {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 10px;
+  gap: 10px;
+}
+section .id {
+  display: flex;
+  padding-top: 60px;
+  line-height: 0.5;
+  padding-left: 10px;
+}
+section .id img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+section .psecond {
+  display: flex;
+  flex-direction: column;
+  padding-left: 7vw;
+  gap: 10px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+section .psecond h6 {
+  padding-left: 1px;
+}
+
+main {
+  background-color: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 1200px;
+  max-width: 100%;
+  padding: 10px;
+}
+main h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+main p {
+  line-height: 1.5;
+}
+main .image {
+  position: relative;
+}
+main .image img {
+  width: 100%;
+}
+main .image div {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+main .image div button {
+  font-size: 18px;
+  color: white;
+  background-color: rgb(241, 100, 100);
+  border: none;
+  padding: 10px 30px;
+}
+main button {
+  padding: 12px 20px;
+  background-color: rgb(216, 46, 46);
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+main ul {
+  list-style-type: disc;
+  padding-left: 30px;
+}
+main ul li {
+  margin-bottom: 20px;
+}
+main p {
+  margin-bottom: 15px;
+}
+main .box {
+  background-color: rgb(241, 235, 223);
+  width: 100%;
+  padding: 30px;
+}
+main .box h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+main .points {
+  display: flex;
+  justify-content: space-between;
+}
+main .points ul {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=style32.css.map */
