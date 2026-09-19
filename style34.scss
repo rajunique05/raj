@@ -1,0 +1,135 @@
+/* Reset basic styles and set up the page font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f3f4f6; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Pricing Card Container styling */
+.pricing-card {
+    background-color: #ffffff;
+    border: 2px solid #6366f1; /* Indigo accent border */
+    border-radius: 16px;
+    padding: 32px;
+    width: 350px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+/* Subtle card lift when hovered */
+.pricing-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Popular Tag positioning and style */
+.badge {
+    background-color: #6366f1;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 20px;
+    position: absolute;
+    top: -12px;
+    left: 32px;
+    letter-spacing: 0.05em;
+}
+
+/* Typography styles */
+.card-header {
+    margin-bottom: 24px;
+}
+
+.plan-name {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.plan-description {
+    color: #6b7280;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Pricing typography layout */
+.price-container {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 28px;
+}
+
+.currency {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-start;
+    margin-top: 4px;
+}
+
+.price {
+    color: #1f2937;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.duration {
+    color: #6b7280;
+    font-size: 16px;
+    margin-left: 4px;
+}
+
+/* Features section list layout */
+.features-list {
+    list-style: none;
+    margin-bottom: 32px;
+}
+
+.features-list li {
+    color: #4b5563;
+    font-size: 14px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.check-icon {
+    color: #10b981; /* Emerald green checkmark */
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+/* Call-to-action Button design */
+.cta-btn {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* Interactive hover and click behavior */
+.cta-btn:hover {
+    background-color: #4f46e5; /* Darker indigo variant on hover */
+}
+
+.cta-btn:active {
+    transform: scale(0.98); /* Slight click shrinkage */
+}
