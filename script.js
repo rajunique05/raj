@@ -1,11 +1,44 @@
-let nav=document.querySelector("nav");
-let links=document.querySelector("#nav-links");
+  let randomNumber = Math.floor(Math.random() * 100) + 1;
+let attempts = 0;
 
-let menu=document.createElement("i");
-menu.className="ri-menu-line";
+function checkGuess() {
 
-nav.appendChild(menu);
+    let guess = Number(document.getElementById("guess").value);
 
-menu.addEventListener("click",()=>{
-    links.classList.toggle("show");
-});
+    attempts++;
+
+    document.getElementById("attempts").innerText = attempts;
+
+    if (guess === randomNumber) {
+
+        document.getElementById("result").innerText =
+            "Correct! You guessed the number 🎉";
+
+    }
+    else if (guess > randomNumber) {
+
+        document.getElementById("result").innerText =
+            "Too high! Try again.";
+
+    }
+    else {
+
+        document.getElementById("result").innerText =
+            "Too low! Try again.";
+
+    }
+}
+
+
+function resetGame() {
+
+    randomNumber = Math.floor(Math.random() * 100) + 1;
+
+    attempts = 0;
+
+    document.getElementById("attempts").innerText = 0;
+
+    document.getElementById("result").innerText = "";
+
+    document.getElementById("guess").value = "";
+}
