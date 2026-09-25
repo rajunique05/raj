@@ -1,10 +1,7 @@
- let count=0;
-for(let i=1 ;i<=100;i++)
+ //write a bmi calculator
+
+ function bmi(weight,height)
  {
-  if(i%2==1)
-  {
-    console.log(i);
-    count++;
-  }
-  if(count==5)break;
+  return weight/(height*height);
  }
+  console.log(bmi(54,5.2).toFixed(2));
