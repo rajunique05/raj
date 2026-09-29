@@ -47,10 +47,55 @@
 //     console.log(i);
 // }
 
-for(let i=0;i<=100;i++)
-{
-    if(i%2===0)
-    {
-        console.log(i)
-    }
-}
+// for(let i=0;i<=100;i++)
+// {
+//     if(i%2===0)
+//     {
+//         console.log(i)
+//     }
+// }
+
+
+
+//  let n=Number(prompt("enter a no"));
+//  if(n%3===0&&n%5===0)
+//  {
+//     console.log("divisible");
+//  }
+//  else{
+//     console.log(" notdivisible");
+
+//  }
+
+
+// switch(2)
+// {
+//    case 1:
+//    console.log("hey");
+//    break;
+//      case 2:
+//      console.log("hey hii");
+//         break;
+
+//      case 3:
+//      console.log("hey hiii");
+//         break;
+
+//      case 4:
+//    console.log("hey hiiiiiii");
+//    break;
+
+//    default:
+//    console.log("default case");
+
+// }
+
+
+
+
+// for(let i=121;i>11;i--)
+// {
+//    console.log(i);
+// }
+
+
