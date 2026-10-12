@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dice Roller</title>
+</head>
+<body>
+
+    <h2>Dice Roller 🎲</h2>
+
+    <p id="result">Click the button!</p>
+
+    <button onclick="rollDice()">Roll Dice</button>
+
+    <script>
+        function rollDice() {
+            let number = Math.floor(Math.random() * 6) + 1;
+
+            document.getElementById("result").innerText =
+                "You got: " + number;
+        }
+    </script>
+
+</body>
+</html>
