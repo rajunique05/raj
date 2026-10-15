@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    height:40px;
+    width: 100%;
+    background-color:rgb(226, 192, 129);
+    padding:10px;
+    display: flex;
+    border-radius:10px;
+align-items:center;
+justify-content:space-between;
+}
+#card{
+    height: 280px;
+    width: 100%;
+    background-color: rgb(68, 57, 193);
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 30px;
+    border-radius:15px;
+}
+.img1{
+    height:300px;
+    width: 300px;
+    object-fit: cover;
+    padding: 30px;
+border-radius: 10px;
+}
+#p1{
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: white;
+font-size: 18px;
+}
+#p2{
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color:transparent;
+    color: white;
+    font-size: 18px;
+}
+ h2{
+
+    color: #fff;
+    font-size:25px;
+}
+.img2{
+    height: 150px;
+    width:150px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.card2{
+    height: 280px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 30px 25px;
+    
+    
+}
+.img3{
+    height:150px;
+width: 150px;
+object-fit: cover;
+border-radius: 15px;
+
+}
+.card2 h3{
+    font-size: 35px;
+   text-align: center; 
+   
+}
+p{
+    font-size: 15px;
+    font-weight: 100;
+}
+.img4{
+    height: 140px;
+    width: 140px;
+    border-radius: 15px;
+}
+.pillars-section{
+height:370px;
+width: 100%;
+background-color: lightblue;
+border-radius: 20px;
+padding: 30px 25px;
+}
+.pillars-section>h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #171717;
+
+}
+.cards-container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 20px;
+}
+pillar-card{
+    background-color: white;
+    border: 1px solid #dddddd
+    padding: 25px 20px;
+    border-radius: 15px;
+    height: 100px;
+}
+.card-icon{
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+.pillar-card{
+    font-size: 20px;
+    color: #171717;
+    margin-left: 12px;
+}
+.pillar-card p{
+    font-size: 13px;
+    font-weight: 200;
+    color: #666;
+    line-height: 1.6;
+}
+.grades-section{
+    height: 350px;
+    width:85%;
+    margin: 70px auto;
+}
+.grades-section>h2{
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.4;
+    color: #171717;
+    margin-bottom: 30px;
+}
+.grades-container{
+display: grid;
+grid-template-columns: 1.2fr 0.8fr;
+gap: 18px;
+align-items: start;
+}
+.grades-left img{
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+}
+.grades-right>img{
+    width: 40%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+}
+.grades-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 13px;
+    margin-top: 18px;
+}
+.info-card{
+    padding: 20px 15px;
+    border: 1px solid #eeeeee;
+    border-color: 12px;
+    background-color: #ffffff;
+}
+.info-card h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #171717;
+}
+.info-card p{
+    font-size: 12px;
+    color: #666666;
+    line-height: 1.5;
+}
+.Roadmap-section{
+    height: 340px;
+    width:100%;
+    background-color:lightcyan;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.Roadmap-section >h2{
+font-size: 35px;
+font-weight: 500;
+color: black;
+}
+.child{
+height: 15%;
+width: 100%;
+}
+.child > h3{
+font-size: 40px;
+font-weight: 500;
+color: white;
+}

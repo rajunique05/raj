@@ -11,3 +11,10 @@ runTwice(function()
 {
     console.log("hello");
 });
+
+
+//creat one pure function that always returns 
+// the same output for given input and one impure function using a global variable
+//----------------------------------------------------------------------
+
+ 
